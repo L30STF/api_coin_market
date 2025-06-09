@@ -17,18 +17,18 @@ Detalhamento ao clicar em uma criptomoeda.
 ## Como Rodar Localmente
 
 1. Clone o repositório
-   git clone https://github.com/L30STF/api_coin_market.git
+- git clone https://github.com/L30STF/api_coin_market.git
 - cd api_coin_market
--cd api_coin_market
+- cd api_coin_market
 
 2. Instale as dependências
-flutter pub get
+- flutter pub get
 
 3. Adicione sua API Key da CoinMarketCap
 Você precisa se registrar em: (https://coinmarketcap.com/api/)
 para coseguir uma chave para colocar na api
 
 4. Rode o projeto
-   flutter run
+- flutter run
 
 
