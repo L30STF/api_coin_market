@@ -1,16 +1,34 @@
-# api_coin_market
+# CoinMarketCap Flutter App
+Aplicativo Flutter que lista criptomoedas utilizando a API da CoinMarketCap. O app foi desenvolvido seguindo a arquitetura MVVM e boas práticas.
 
 A new Flutter project.
 
-## Getting Started
+##  Funcionalidades
+Busca e listagem de criptomoedas por símbolo (ex: BTC, ETH).
 
-This project is a starting point for a Flutter application.
+Atualização via botão ou pull-to-refresh.
 
-A few resources to get you started if this is your first Flutter project:
+Campo de pesquisa com múltiplos símbolos (separados por vírgula).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cotação exibida em USD e BRL.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Detalhamento ao clicar em uma criptomoeda.
+
+## Como Rodar Localmente
+
+1. Clone o repositório
+   git clone https://github.com/L30STF/api_coin_market.git
+   cd api_coin_market
+   cd api_coin_market
+
+2. Instale as dependências
+flutter pub get
+
+3. Adicione sua API Key da CoinMarketCap
+Você precisa se registrar em: (https://coinmarketcap.com/api/)
+para coseguir uma chave para colocar na api
+
+4. Rode o projeto
+   flutter run
+
+
