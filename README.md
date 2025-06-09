@@ -18,8 +18,8 @@ Detalhamento ao clicar em uma criptomoeda.
 
 1. Clone o repositório
    git clone https://github.com/L30STF/api_coin_market.git
-   cd api_coin_market
-   cd api_coin_market
+- cd api_coin_market
+-cd api_coin_market
 
 2. Instale as dependências
 flutter pub get
